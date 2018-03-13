@@ -30,9 +30,9 @@ def tlkom(n,t, j):
     print "\nSelesai"
 if __name__ == "__main__":
     os.system("clear")
-    #no = raw_input("Nomor: ")
-    #jml = int(raw_input("Jumlah Flood: "))
-    #timeout = int(raw_input("Delay/Jeda: "))
+
+
+
     print "\t-TOKPED SPAM CALL"
     print "\t-Made by Handika Pratama "
     print "\t-Python Coding: Qiuby Zhukhi"
