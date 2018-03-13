@@ -39,19 +39,19 @@ if __name__ == "__main__":
     print "\t--[PBM]-- TEAM 100% BAXOT"
     print "\n"
 #Ini kalau mau isi lewat terminal input metode
-#    no = raw_input("Nomor: ")
-#    jml = int(raw_input("Jumlah Flood: "))
-#    timeout = int(raw_input("Delay/Jeda: "))
+    no = raw_input("Nomor: ")
+    jml = int(raw_input("Jumlah Flood: "))
+    timeout = int(raw_input("Delay/Jeda: "))
     """
     Dibawah ini kalau mau isi lewat code langsung.
     kalau pake ini,
     Hapus 3 Tanda tagar (#) dan hapus Variabel script no,jum,timeout serta isinya
     yang terletak tepat di atas pesan ini.
     """
-#    no = ""
-    no = "082347676594" # Nomor HP
-    jml = 0 #flood
-    timeout = 5# jeda
+
+  #  no = "082347" # Nomor HP
+ #   jml = 0 #flood
+#    timeout = 5# jeda
     requests = requests.session()
     tlkom(no, timeout, jml)
 else:
