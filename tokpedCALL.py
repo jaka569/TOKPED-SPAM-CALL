@@ -49,10 +49,10 @@ if __name__ == "__main__":
     yang terletak tepat di atas pesan ini.
     """
 
-  #  no = "082347" # Nomor HP
- #   jml = 0 #flood
-#    timeout = 5# jeda
-    requests = requests.session()
-    tlkom(no, timeout, jml)
+
+
+
+
+
 else:
     print "Tadaaaa :v"
